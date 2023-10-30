@@ -1,8 +1,5 @@
 # Twittrify Backend API
 
-![Made-With-NodeJS](https://img.shields.io/badge/Made_with-NodeJS-informational?style=for-the-badge&logo=javascript) ![Made-With-ExpressJS](https://img.shields.io/badge/Made_with-ExpressJS-informational?style=for-the-badge&logo=express)
-![Made-With-MongoDB](https://img.shields.io/badge/Made_with-MongoDB-informational?style=for-the-badge&logo=mongodb)
-
 This is the backend API for a social media application developed using Node.js, Express, and MongoDB. This API provides the necessary endpoints to manage user accounts, posts, comments, and more.
 
 ### Prerequisites
