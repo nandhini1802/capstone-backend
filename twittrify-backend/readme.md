@@ -2,33 +2,16 @@
 
 This is the backend API for a social media application developed using Node.js, Express, and MongoDB. This API provides the necessary endpoints to manage user accounts, posts, comments, and more.
 
-### Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- Node.js and npm installed
-- MongoDB installed and running
-- Clone this repository
-
-
-### Installation
-
-1. Clone the repository:
-
-```bash
 
 cd twittrify-backend
 ```
 
-2. Install dependencies:
-```bash
 npm install
 ```
+ Create a .env file in the root directory and configure environment variables (see .env.example for guidance).
 
-3. Create a .env file in the root directory and configure environment variables (see .env.example for guidance).
+ Start the server:
 
-4. Start the server:
-```bash
 nodemon app.js
 ```
 
@@ -61,9 +44,3 @@ Authorization: Bearer YOUR_JWT_TOKEN
 This application uses MongoDB as the database. Make sure you have a MongoDB instance running and configured in your .env file.
 
 
-### Developed With
-
-* [Visual Studio Code](https://code.visualstudio.com/) - A source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring
-* [NodeJS](https://nodejs.org/) - Node.js is an open-source, cross-platform JavaScript runtime environment.
-* [ExpressJS](https://expressjs.com/) - Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
-* [MongoDB](https://www.mongodb.com/) - MongoDB is a source-available cross-platform document-oriented database program.
